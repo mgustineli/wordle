@@ -656,6 +656,7 @@ embed
 ember
 emcee
 empty
+emoji
 enact
 endow
 enema
