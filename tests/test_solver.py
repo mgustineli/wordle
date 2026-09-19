@@ -95,7 +95,8 @@ def test_small_candidate_set_only_ranks_candidates(solver):
     assert df["Word"].tolist() == ["LIVEN"]
 
 
-def test_choose_word_without_candidates_raises(solver):
+def test_choose_word_without_candidates_returns_empty(solver):
     solver.words = []
-    with pytest.raises(ValueError):
-        solver.choose_word_to_play()
+    df = solver.choose_word_to_play()
+    assert df.empty
+    assert list(df.columns) == ["Word", "Entropy", "Score"]

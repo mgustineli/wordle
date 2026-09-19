@@ -166,10 +166,10 @@ class Solver:
 
         Returns:
             The ``top_k_words`` guesses with the highest entropy, best first.
-            Also stored on :attr:`top_entropy_words`.
+            Also stored on :attr:`top_entropy_words`. Empty when no candidates
+            remain, so a feedback mistake shows up as an empty ranking rather
+            than an exception.
         """
-        if not self.words:
-            raise ValueError("no candidate words; call find_words() first")
         potential_words = (
             self.words if len(self.words) <= word_threshold else self.possible_words
         )
