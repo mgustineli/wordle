@@ -2272,6 +2272,7 @@ wager
 wagon
 waist
 waive
+waken
 waltz
 warty
 waste
