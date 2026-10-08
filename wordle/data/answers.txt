@@ -1990,6 +1990,7 @@ stout
 stove
 strap
 straw
+strew
 stray
 strip
 strut
