@@ -2199,6 +2199,7 @@ udder
 ulcer
 ultra
 umbra
+uncap
 uncle
 uncut
 under
