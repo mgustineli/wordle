@@ -17,6 +17,9 @@ repos:
     rev: "v4.0.0-alpha.8"
     hooks:
       - id: prettier
+        # Pin to the latest LTS: nodeenv's default "latest" can resolve to a
+        # pre-release (e.g. 27.0.0-alpha) whose version string it can't parse.
+        language_version: lts
         additional_dependencies:
           - prettier
           - prettier-plugin-svelte
