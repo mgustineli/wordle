@@ -1088,6 +1088,7 @@ junta
 junto
 juror
 kappa
+karat
 karma
 kayak
 kazoo
