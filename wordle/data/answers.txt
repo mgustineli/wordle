@@ -2228,6 +2228,7 @@ untie
 until
 unwed
 unzip
+upend
 upper
 upset
 urban
