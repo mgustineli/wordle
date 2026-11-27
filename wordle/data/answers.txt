@@ -1761,6 +1761,7 @@ shark
 sharp
 shave
 shawl
+sheaf
 shear
 sheen
 sheep
